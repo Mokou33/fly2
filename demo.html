@@ -233,8 +233,8 @@
                this.EnemyTimer = setInterval(function(){
                   var aEnemy = document.createElement('img');
                   aEnemy.src = 'images/enemy.png';
-                  aEnemy.width = '23';
-                  aEnemy.height = '30';
+                  aEnemy.width = 23;
+                  aEnemy.height = 30;
                   var leftMin = 0;
                   var leftMax = oGamebox.clientWidth - aEnemy.height;
                   var left = Math.random()*(leftMax-leftMin) + leftMin;
